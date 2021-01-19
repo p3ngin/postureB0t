@@ -13,7 +13,7 @@ import socket
 import re
 import requests
 import json
-import time, thread
+import time, threading
 from time import sleep
 
 def is_stream_live():

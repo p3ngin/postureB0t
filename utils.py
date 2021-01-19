@@ -3,10 +3,10 @@
 # A bunch of utility functions
 
 import cfg
-import urllib2, json
-import time, thread
+import json
+import time, threading
 from time import sleep
-
+import urllib.request as urllib2
 
 	# Send a chat message to the server.
 		# Parameters: 
